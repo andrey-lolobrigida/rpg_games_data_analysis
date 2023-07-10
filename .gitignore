@@ -63,6 +63,9 @@ target/
 *.db
 *.rdb
 
+# CSV Files
+*.csv
+
 # Pycharm
 .idea
 
@@ -76,7 +79,8 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+# user change: do not ignore data, ignore csv files
+# /data/
 
 # Mac OS-specific storage files
 .DS_Store
